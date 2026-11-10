@@ -2,7 +2,7 @@
 
 Uma área de trabalho no estilo Windows 95 que roda no navegador, feita com HTML, CSS e JavaScript puro. Não precisa instalar nada.
 
-> Projeto de estudo e diversão.
+> Projeto de estudo.
 
 ## Como usar
 
