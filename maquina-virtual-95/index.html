@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Máquina Virtual 95</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=VT323&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="shell">
+  <div class="vmbar">
+    <span class="led" id="led"></span><b>Máquina Virtual 95</b>
+    <span class="vmsub" id="vm-sub">ligada</span>
+    <span class="sp"></span>
+    <button id="vm-reset" type="button">Reiniciar</button>
+    <button id="vm-off" type="button">Desligar</button>
+  </div>
+
+  <div class="screen" id="screen">
+    <div class="desk" id="desk">
+      <div class="icons" id="icons"></div>
+    </div>
+
+    <div class="menu" id="menu" hidden>
+      <div class="side"><span>Windows<b>95</b></span></div>
+      <div class="mlist" id="mlist"></div>
+      <div class="sub" id="submenu" hidden></div>
+    </div>
+
+    <div class="taskbar" id="taskbar">
+      <button class="start" id="start" type="button" aria-haspopup="true" aria-expanded="false">
+        <span class="logo"><i style="background:#f35325"></i><i style="background:#81bc06"></i><i style="background:#05a6f0"></i><i style="background:#ffba08"></i></span>Iniciar
+      </button>
+      <div class="ql" id="ql"></div>
+      <div class="tasks" id="tasks"></div>
+      <div class="tray"><span id="tray-spk"></span><span id="clock">00:00</span></div>
+    </div>
+
+    <div class="boot" id="boot" role="status">
+      <pre id="bootlog"></pre>
+      <small>TOQUE PARA PULAR</small>
+    </div>
+    <div class="offscr" id="offscr" hidden>
+      <h2>Agora é seguro desligar o computador.</h2>
+      <button id="power" type="button">Ligar</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/db.js"></script>
+<script src="js/core.js"></script>
+<script src="js/icons.js"></script>
+<script src="js/radio.js"></script>
+<script src="js/spotify.js"></script>
+<script src="js/word.js"></script>
+<script src="js/settings.js"></script>
+<script src="js/instagram.js"></script>
+<script src="js/mascots.js"></script>
+<script src="js/shell.js"></script>
+</body>
+</html>
